@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+#lin{
+  filter: grayscale(100%);
+}
+.card{
+  border: none;
+}
+#lin:hover{
+filter: grayscale(0%);
+}
+#bannertxt{
+  animation: ltor 1.5s;
+}
+@keyframes ltor {
+  from {
+    margin-right: 30%;
+    opacity: 0;
+  }
+  to {
+
+    margin-right: 0%;
+    opacity: 1;
+  }
+}
